@@ -44,7 +44,7 @@ function App() {
   let nodeId = data.C;
 
   return (
-    <Canvas camera={{ position: [-10, 90, 100], fov: 150 }}>
+    <Canvas camera={{ position: [-10, 90, 100], fov: 100 }}>
       <ambientLight intensity={1.5} />
       <pointLight position={[0, 0, 0]} intensity={0.5} />
       <OrbitControls />
